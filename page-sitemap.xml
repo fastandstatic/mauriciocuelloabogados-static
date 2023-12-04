@@ -21,8 +21,15 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>./caso-familia/index.html</loc>
+		<lastmod>2023-11-30T16:50:35+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/09/mauriciologo.png</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>./caso-laboral/index.html</loc>
-		<lastmod>2023-10-18T20:21:21+00:00</lastmod>
+		<lastmod>2023-12-04T21:02:59+00:00</lastmod>
 		<image:image>
 			<image:loc>./wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
 		</image:image>
@@ -32,7 +39,7 @@
 	</url>
 	<url>
 		<loc>./caso-pension/index.html</loc>
-		<lastmod>2023-11-23T16:28:02+00:00</lastmod>
+		<lastmod>2023-12-04T21:04:12+00:00</lastmod>
 		<image:image>
 			<image:loc>./wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
 		</image:image>
@@ -42,7 +49,7 @@
 	</url>
 	<url>
 		<loc>./caso-pension-heredero/index.html</loc>
-		<lastmod>2023-11-23T16:35:02+00:00</lastmod>
+		<lastmod>2023-12-04T21:04:36+00:00</lastmod>
 		<image:image>
 			<image:loc>./wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
 		</image:image>
@@ -52,7 +59,7 @@
 	</url>
 	<url>
 		<loc>./alimentos/index.html</loc>
-		<lastmod>2023-11-30T14:54:16+00:00</lastmod>
+		<lastmod>2023-12-04T21:13:29+00:00</lastmod>
 		<image:image>
 			<image:loc>./wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
 		</image:image>
@@ -62,17 +69,10 @@
 	</url>
 	<url>
 		<loc>./liquidacion-de-bienes/index.html</loc>
-		<lastmod>2023-11-30T16:05:35+00:00</lastmod>
+		<lastmod>2023-12-04T21:42:21+00:00</lastmod>
 		<image:image>
 			<image:loc>./wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
 		</image:image>
-		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/mauriciologo.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>./caso-familia/index.html</loc>
-		<lastmod>2023-11-30T16:50:35+00:00</lastmod>
 		<image:image>
 			<image:loc>./wp-content/uploads/2023/09/mauriciologo.png</image:loc>
 		</image:image>

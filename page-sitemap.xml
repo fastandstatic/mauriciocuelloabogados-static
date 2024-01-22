@@ -1,80 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>./index.html</loc>
-		<lastmod>2023-10-06T15:09:01+00:00</lastmod>
+		<loc>/</loc>
+		<lastmod>2024-01-18T15:32:41+00:00</lastmod>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/mauriciologo.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/mauriciologo.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>./caso-pension-intro/index.html</loc>
+		<loc>/caso-pension-intro/</loc>
 		<lastmod>2023-10-06T14:52:37+00:00</lastmod>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/mauriciologo.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/mauriciologo.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>./caso-familia/index.html</loc>
+		<loc>/caso-familia/</loc>
 		<lastmod>2023-11-30T16:50:35+00:00</lastmod>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/mauriciologo.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/mauriciologo.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>./caso-laboral/index.html</loc>
+		<loc>/caso-laboral/</loc>
 		<lastmod>2023-12-04T21:02:59+00:00</lastmod>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/mauriciologo.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/mauriciologo.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>./caso-pension/index.html</loc>
+		<loc>/caso-pension/</loc>
 		<lastmod>2023-12-04T21:04:12+00:00</lastmod>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/mauriciologo.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/mauriciologo.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>./caso-pension-heredero/index.html</loc>
+		<loc>/caso-pension-heredero/</loc>
 		<lastmod>2023-12-04T21:04:36+00:00</lastmod>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/mauriciologo.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/mauriciologo.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>./alimentos/index.html</loc>
+		<loc>/alimentos/</loc>
 		<lastmod>2023-12-04T21:13:29+00:00</lastmod>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/mauriciologo.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/mauriciologo.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>./liquidacion-de-bienes/index.html</loc>
+		<loc>/liquidacion-de-bienes/</loc>
 		<lastmod>2023-12-04T21:42:21+00:00</lastmod>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/littlelink-1008x1024.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2023/09/mauriciologo.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/09/mauriciologo.png</image:loc>
 		</image:image>
 	</url>
 </urlset>

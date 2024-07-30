@@ -1,4 +1,4 @@
-/*! elementor-pro - v3.19.0 - 07-02-2024 */
+/*! elementor-pro - v3.23.0 - 15-07-2024 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -1628,6 +1628,7 @@ Object.defineProperty(exports, "__esModule", ({
 exports["default"] = void 0;
 var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/extends */ "../node_modules/@babel/runtime/helpers/extends.js"));
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+var React = _react;
 var _appUi = __webpack_require__(/*! @elementor/app-ui */ "@elementor/app-ui");
 var _utils = __webpack_require__(/*! ../utils.js */ "../core/app/assets/js/utils.js");
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
@@ -1641,7 +1642,7 @@ const ConnectButton = props => {
     }
     jQuery(buttonRef.current).elementorConnect();
   }, []);
-  return /*#__PURE__*/_react.default.createElement(_appUi.Button, (0, _extends2.default)({}, props, {
+  return /*#__PURE__*/React.createElement(_appUi.Button, (0, _extends2.default)({}, props, {
     elRef: buttonRef,
     className: className
   }));
@@ -1661,7 +1662,7 @@ ConnectButton.defaultProps = {
   rel: 'noopener noreferrer',
   text: __('Connect & Activate', 'elementor')
 };
-var _default = exports["default"] = _react.default.memo(ConnectButton);
+var _default = exports["default"] = React.memo(ConnectButton);
 
 /***/ }),
 
@@ -1914,6 +1915,7 @@ class ConditionsProvider extends _baseContext.default {
     super(props);
     this.state = {
       ...this.state,
+      conditionsFetched: false,
       conditions: {},
       updateConditionItemState: this.updateConditionItemState.bind(this),
       removeConditionItemInState: this.removeConditionItemInState.bind(this),
@@ -1928,7 +1930,17 @@ class ConditionsProvider extends _baseContext.default {
    * the subIds.
    */
   componentDidMount() {
-    this.executeAction(ConditionsProvider.actions.FETCH_CONFIG, () => _conditionsConfig.default.create()).then(conditionsConfig => this.conditionsConfig = conditionsConfig).then(this.normalizeConditionsState.bind(this)).then(this.setSubIdTitles.bind(this));
+    this.executeAction(ConditionsProvider.actions.FETCH_CONFIG, () => _conditionsConfig.default.create()).then(conditionsConfig => this.conditionsConfig = conditionsConfig).then(this.normalizeConditionsState.bind(this)).then(() => {
+      this.setSubIdTitles.bind(this);
+      this.setState({
+        conditionsFetched: true
+      });
+    });
+  }
+  componentDidUpdate(prevProps, prevState) {
+    if (!prevState.conditionsFetched && this.state.conditionsFetched) {
+      this.setSubIdTitles();
+    }
   }
 
   /**
@@ -2004,7 +2016,7 @@ class ConditionsProvider extends _baseContext.default {
           subIdAutocomplete: this.conditionsConfig.getSubIdAutocomplete(condition.sub),
           supIdOptions: condition.subId ? [{
             value: condition.subId,
-            label: condition.subId
+            label: ''
           }] : []
         });
         return {
@@ -3699,9 +3711,9 @@ function Import() {
       resetActionState
     } = _react.default.useContext(_templates.Context),
     [importedTemplate, setImportedTemplate] = _react.default.useState(null),
-    isImport = _react.default.useMemo(() => action.current === _templates.TemplatesProvider.actions.IMPORT, [action]),
-    isUploading = _react.default.useMemo(() => isImport && action.loading, [action]),
-    hasError = _react.default.useMemo(() => isImport && action.error, [action]);
+    isImport = action.current === _templates.TemplatesProvider.actions.IMPORT,
+    isUploading = isImport && action.loading,
+    hasError = isImport && action.error;
   const upload = _react.default.useCallback(file => {
     if (isUploading) {
       return;
